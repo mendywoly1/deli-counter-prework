@@ -18,7 +18,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
-def 
+def now_serving(array)
+  if katz_deli.empty?
+  puts katz_deli[0]
+end
 
   
   
