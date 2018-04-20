@@ -20,7 +20,7 @@ end
 
 def now_serving(array)
   if katz_deli.empty?
-    "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
     puts katz_deli[0]
   end
