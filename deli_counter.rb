@@ -2,7 +2,7 @@
 
 def line(array)
   if array.empty?
-    "The line is currently empty."
+    puts "The line is currently empty."
   end
   
 end
