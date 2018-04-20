@@ -8,5 +8,6 @@ def line(array)
   array.each_with_index do |val, index|
     line << "#{index + 1}. #{val}"
   end
+end
     puts line
 end
