@@ -13,4 +13,8 @@ end
 end
 
 
-def tak
+def take_a_number(array)
+
+end
+  
+  
