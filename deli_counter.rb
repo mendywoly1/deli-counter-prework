@@ -4,9 +4,9 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-  line = "The line is currently: "
+  line = "The line is currently:"
   array.each_with_index do |val, index|
-    line << "#{index + 1}. #{val}"
+    line << " #{index + 1}. #{val}"
   end
     puts line
 end
