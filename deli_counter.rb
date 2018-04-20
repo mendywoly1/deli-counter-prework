@@ -13,8 +13,9 @@ end
 end
 
 
-def take_a_number(array)
-
+def take_a_number(katz_deli, name)
+  array << name
+  puts array[-1]
 end
   
   
